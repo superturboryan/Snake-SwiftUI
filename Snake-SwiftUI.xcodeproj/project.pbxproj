@@ -13,6 +13,7 @@
 		943549722506E37F00056680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943549712506E37F00056680 /* Assets.xcassets */; };
 		943549752506E37F00056680 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943549742506E37F00056680 /* Preview Assets.xcassets */; };
 		943549782506E37F00056680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943549762506E37F00056680 /* LaunchScreen.storyboard */; };
+		943549802507293900056680 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9435497F2507293900056680 /* Haptics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		943549742506E37F00056680 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		943549772506E37F00056680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		943549792506E37F00056680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9435497F2507293900056680 /* Haptics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		9435496A2506E37D00056680 /* Snake-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				9435497F2507293900056680 /* Haptics.swift */,
 				9435496B2506E37D00056680 /* AppDelegate.swift */,
 				9435496D2506E37D00056680 /* SceneDelegate.swift */,
 				9435496F2506E37D00056680 /* ContentView.swift */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				943549802507293900056680 /* Haptics.swift in Sources */,
 				9435496C2506E37D00056680 /* AppDelegate.swift in Sources */,
 				9435496E2506E37D00056680 /* SceneDelegate.swift in Sources */,
 				943549702506E37D00056680 /* ContentView.swift in Sources */,
